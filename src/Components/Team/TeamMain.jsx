@@ -2,7 +2,7 @@ import React from 'react';
 import { FaBook, FaStar, FaUsers } from "react-icons/fa";
 import { IoStar } from 'react-icons/io5';
 
-const Instructors = () => {
+const TeamMain = () => {
     // Define an array of instructors
     const instructors = [
         {
@@ -40,13 +40,119 @@ const Instructors = () => {
             courses: 15,
             students: 980,
             image: "/i3.jpg",
-        },        
+        },
+        {
+            id: 5,
+            name: "Dr. Michael Brown",
+            qualification: "Ph.D. in Data Science",
+            ratingStars: 4.6,
+            courses: 10,
+            students: 1100,
+            image: "/i1.jpg",
+        },
+        {
+            id: 6,
+            name: "Dr. Sarah Lee",
+            qualification: "Ph.D. in Artificial Intelligence",
+            ratingStars: 4.9,
+            courses: 14,
+            students: 1320,
+            image: "/i2.jpg",
+        },
+        {
+            id: 7,
+            name: "Mr. Robert King",
+            qualification: "M.Tech in Software Engineering",
+            ratingStars: 4.4,
+            courses: 9,
+            students: 890,
+            image: "/i3.jpg",
+        },
+        {
+            id: 8,
+            name: "Dr. Anna White",
+            qualification: "Ph.D. in Cybersecurity",
+            ratingStars: 4.7,
+            courses: 11,
+            students: 970,
+            image: "/i4.jpg",
+        },
+        {
+            id: 9,
+            name: "Ms. Karen Davis",
+            qualification: "M.A. in Psychology",
+            ratingStars: 4.8,
+            courses: 7,
+            students: 1025,
+            image: "/i1.jpg",
+        },
+        {
+            id: 10,
+            name: "Mr. James Wilson",
+            qualification: "M.Sc. in Cloud Computing",
+            ratingStars: 4.5,
+            courses: 6,
+            students: 810,
+            image: "/i2.jpg",
+        },
+        {
+            id: 11,
+            name: "Dr. Linda Martinez",
+            qualification: "Ph.D. in Network Security",
+            ratingStars: 4.8,
+            courses: 12,
+            students: 1240,
+            image: "/i3.jpg",
+        },
+        {
+            id: 12,
+            name: "Ms. Olivia Green",
+            qualification: "B.Sc. in Software Development",
+            ratingStars: 4.3,
+            courses: 5,
+            students: 760,
+            image: "/i4.jpg",
+        },
+        {
+            id: 13,
+            name: "Mr. David Thompson",
+            qualification: "M.Eng. in Mechanical Engineering",
+            ratingStars: 4.6,
+            courses: 13,
+            students: 980,
+            image: "/i1.jpg",
+        },
+        {
+            id: 14,
+            name: "Ms. Emma Harris",
+            qualification: "M.B.A. in Business Analytics",
+            ratingStars: 4.7,
+            courses: 8,
+            students: 910,
+            image: "/i2.jpg",
+        },
+        {
+            id: 15,
+            name: "Dr. Sophia Roberts",
+            qualification: "Ph.D. in Computational Biology",
+            ratingStars: 4.9,
+            courses: 10,
+            students: 1145,
+            image: "/i4.jpg",
+        },
+        {
+            id: 16,
+            name: "Mr. Christopher Young",
+            qualification: "M.Sc. in Data Analytics",
+            ratingStars: 4.4,
+            courses: 9,
+            students: 860,
+            image: "/i3.jpg",
+        }        
     ];
 
     return (
-        <div className="px-4 md:px-24 py-12 bg-gray-50">
-            <p className='text-lg text-primary text-center uppercase'>World - class Instructors</p>
-            <p className='text-4xl font-bold text-center mb-12 mt-3'>Classes Taught By Real Creators</p>
+        <div className="px-4 md:px-24 py-12">
             <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
                 {instructors.map((instructor) => (
                     <div key={instructor.id} className="bg-white rounded-lg shadow-lg transform transition duration-300 hover:-translate-y-3">
@@ -77,9 +183,8 @@ const Instructors = () => {
                 
                 ))}
             </div>
-            <p className='text-center pt-12 text-lg'>Want to help people learn, grow and achieve more in life? <span className='text-primary'>Become an instructor</span></p>
         </div>
     );
 };
 
-export default Instructors;
+export default TeamMain;

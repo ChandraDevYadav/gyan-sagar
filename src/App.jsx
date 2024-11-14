@@ -12,6 +12,11 @@ import Instructor from './Pages/Instructor/Instructor'
 import ShopDetail from './Pages/ShopDetail/ShopDetail'
 import Shop from './Pages/Shop/Shop'
 import BlogStyle from './Pages/BlogStyle/BlogStyle'
+import Contact from './Pages/Contact/Contact'
+import Cart from './Pages/Cart/Cart'
+import LoginForm from './Pages/Login/Login'
+import SignUp from './Pages/SignUp/SignUp'
+import ForgotPassword from './Pages/ForgetPassword'
 
 function App() {
 
@@ -21,6 +26,8 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/courses' element={<Courses />} />
         <Route path='/coursesdetail' element={<CoursesDetail />} />
+        <Route path='/contact' element={<Contact />} />
+        <Route path='/cart' element={<Cart />} />
         <Route path='/courseview' element={<CourseView />} />
         <Route path='/blog' element={<Blog />} />
         <Route path='/blogdetail' element={<BlogDetail />} />
@@ -30,6 +37,9 @@ function App() {
         <Route path='/instructor' element={<Instructor />} />
         <Route path='/shop' element={<Shop />} />
         <Route path='/shopdetail' element={<ShopDetail />} />
+        <Route path='/login' element={<LoginForm />} />
+        <Route path='/signup' element={<SignUp />} />
+        <Route path='/forgetpassword' element={<ForgotPassword />} />
       </Routes>
     </>
   )

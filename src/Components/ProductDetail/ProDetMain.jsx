@@ -1,14 +1,17 @@
 import React from 'react'
-import ProProduct from '../../Components/Product/ProProduct'
-import ProductFilter from '../../Components/Product/ProductFilter'
-import RecentProducts from '../../Components/Product/RecentProducts'
+import ProDescrip from './ProDescrip'
+import Tabs from './Tabs'
+import ProductFilter from '../Product/ProductFilter'
+import RecentProducts from '../Product/RecentProducts'
 
-const Shop = () => {
+
+const ProDetMain = () => {
   return (
     <div className='px-4 md:px-28 py-8 md:py-16'>
         <div className="grid grid-cols-1 md:grid-cols-8 gap-6">
             <div className="col-span-8 md:col-span-6">
-                <ProProduct/>
+                <ProDescrip/>
+                <Tabs/>
             </div>
             <div className="col-span-8 md:col-span-2">
                 <ProductFilter/>
@@ -19,4 +22,4 @@ const Shop = () => {
   )
 }
 
-export default Shop
+export default ProDetMain

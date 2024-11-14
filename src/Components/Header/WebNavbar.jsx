@@ -122,13 +122,21 @@ const WebNavbar = () => {
                     Shop Details
                   </Link>
                 </li>
+                <li>
+                  <Link
+                    class=" hover:bg-pink-400 hover:text-pink-700 py-2 px-4 block whitespace-no-wrap"
+                    to="/cart"
+                  >
+                    Cart
+                  </Link>
+                </li>
               </ul>
             </div>
             <Link to='/contact'>Contact</Link>
           </ul>
           <ul className='list-none flex justify-center items-center font-medium'>
-            <li className='bg-white text-black px-8 py-3'>Log In</li>
-            <li className='bg-primary text-white px-8 py-3'>Sign Up</li>
+            <Link to='/login' className='bg-white text-black px-8 py-3'>Log In</Link>
+            <Link to='/signup' className='bg-primary text-white px-8 py-3'>Sign Up</Link>
           </ul>
         </div>
       </div>

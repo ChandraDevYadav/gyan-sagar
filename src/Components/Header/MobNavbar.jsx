@@ -50,7 +50,7 @@ const MobNavbar = () => {
           <div className="w-1/2 relative">
             <div className="w-full absolute z-50 bg-[#141414] mt-3 -left-2">
             <ul className="w-full bg-[#141414] mt-3 z-50">
-            {['about', 'activity', 'membership', 'comingsoon', 'allgroup', 'allmember', 'blog', 'blogdetail', 'blogstyletwo', 'cart', 'community', 'contact', 'errorpage', 'login', 'register', 'product', 'productdetail', 'profile', 'setting'].map((link) => (
+            {['courses', 'coursesdetail', 'courseview', 'blog', 'blogdetail', 'blogstyle', 'about', 'team', 'instructor', 'shop', 'shopdetail', 'contact', 'cart', 'login', 'signup', 'product', 'productdetail', 'profile', 'setting'].map((link) => (
                   <li key={link}>
                     <Link
                       className="rounded-t text-white hover:bg-red-600 hover:py-2 hover:mb-2 hover:text-white px-6 text-sm pb-4 font-medium block whitespace-no-wrap"

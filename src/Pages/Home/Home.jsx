@@ -6,8 +6,8 @@ import FeaturedCourses from '../../Components/FetCourses/FetCourses'
 import About from '../../Components/About/About'
 import Instructors from '../../Components/Instructor/Instructor'
 import ComFeedBack from '../../Components/ComFeedBack/ComFeedBack'
-import BlogPage from '../../Components/BlogPage/BlogPage'
 import SuccessPage from '../../Components/SuccessPage/SuccessPage'
+import Blog from '../../Components/Blog/Blog'
 
 const Home = () => {
     return (
@@ -19,7 +19,7 @@ const Home = () => {
             <About />
             <Instructors />
             <ComFeedBack />
-            {/* <BlogPage /> */}
+            <Blog />
             <SuccessPage />
             {/* <SearchFooter/> */}
             

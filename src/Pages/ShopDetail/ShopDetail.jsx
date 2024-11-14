@@ -1,8 +1,13 @@
 import React from 'react'
+import ProDetHero from '../../Components/ProductDetail/ProDetHero'
+import ProDetMain from '../../Components/ProductDetail/ProDetMain'
 
 const ShopDetail = () => {
   return (
-    <div>ShopDetail</div>
+    <div>
+      <ProDetHero/>
+      <ProDetMain/>
+    </div>
   )
 }
 

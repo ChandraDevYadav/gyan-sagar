@@ -1,8 +1,15 @@
 import React from 'react'
+import TeamHero from '../../Components/Team/TeamHero'
+import TeamMain from '../../Components/Team/TeamMain'
+import TeamSuccess from '../../Components/Team/TeamSuccess'
 
 const Team = () => {
   return (
-    <div>Team</div>
+    <div>
+      <TeamHero/>
+      <TeamMain/>
+      <TeamSuccess/>
+    </div>
   )
 }
 

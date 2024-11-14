@@ -2,7 +2,7 @@ import React from 'react';
 import { FaBook, FaStar, FaUsers } from "react-icons/fa";
 import { IoStar } from 'react-icons/io5';
 
-const Instructors = () => {
+const AboutInstru = () => {
     // Define an array of instructors
     const instructors = [
         {
@@ -40,7 +40,7 @@ const Instructors = () => {
             courses: 15,
             students: 980,
             image: "/i3.jpg",
-        },        
+        },
     ];
 
     return (
@@ -82,4 +82,4 @@ const Instructors = () => {
     );
 };
 
-export default Instructors;
+export default AboutInstru;

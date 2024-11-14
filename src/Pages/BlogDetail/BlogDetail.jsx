@@ -9,10 +9,10 @@ const BlogDetail = () => {
       <BlogDetailHero/>
       <div className='px-4 md:px-32 py-24'>
       <div className="grid grid-cols-1 md:grid-cols-9 gap-6">
-            <div className='col-span-6'>
+            <div className='col-span-9 md:col-span-6'>
                 <BlogDetailLeft/>
             </div>
-            <div className='col-span-3'>
+            <div className='col-span-9 md:col-span-3'>
                 <BlogDetailRight/>
             </div>
         </div>
